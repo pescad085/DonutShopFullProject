@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+html {
+    background-image: url("./images/wallpaper.jpg");
+}
+
+header {
+    text-align: center;
+    border: 0.5px solid grey;
+    color: rgb(5, 2, 2);
+    font-size: 23px;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: 'Caveat Brush', cursive;
+}
+body {
+    font-family: 'Roboto Slab', serif;
+}
+nav {
+    background-color: crimson;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+}
+nav ul li a:hover {
+    color: yellow;
+    text-decoration: none;
+   
+}
+
+footer {
+    text-align: center;
+    background-color: darkmagenta;
+    color: #fff;
+    font-size: 23px;
+    clear: both;
+}
+.left {
+    border: 0.5px solid grey;
+    float: left;
+    width: 33.33%;
+   
+}
+.middle {
+    border: 0.5px solid grey;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    width: 33.33%;
+   
+}
+.right {
+    float: right;
+    width: 33.33%;
+    border: 0.5px solid grey;
+}
+.left, .middle, .right {
+    padding: 4px;
+    height: 600px;
+}
+
+.mainBuffet {
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.mainCard {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+}
+.section-title {
+    text-align: center;
+}
+.album-img {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 0.6px solid rgb(247, 21, 138);
+}
+.album-titles {
+    text-align: center;
+    font-size: 23px;
+}
+input {
+    display: block;
+    margin: auto;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.submit {
+    color: #fff;
+    background-color: crimson;
+    width: 90px;
+    font-family: 'Caveat Brush', cursive;
+}
+.textarea {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inline {
+    display: inline;
+    width: 400px;;
+}
+.button-order {
+    background-color: greenyellow;
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Caveat Brush', cursive;
+}
+.button-order:hover {
+    background-color: rgb(96, 3, 17);
+    color: #fff;
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.columnLeft {
+    border: 0.5px solid grey;
+    width: 50%;
+    float: left;
+    text-align: center;
+    height: 600px;
+}
+.columnRight {
+    border: 0.5px solid grey;
+    width: 50%;
+    float: right;
+    text-align: center;
+    height: 600px;
+}
+.info-container {
+    display: flex;
+    justify-content: center;
+}
+span {
+    font-weight: bold;
+}
+.wrapper {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 0.5px solid grey;
+    background-color: #fff;
+}
+.search-button {
+    background-color: greenyellow;
+    border-radius: 30px;
+    font-family: 'Caveat Brush', cursive;
+}
+.search-button:hover {
+    background-color: rgb(96, 3, 17);
+    color: #fff;
+}
+form {
+    height: 700px;
+}
